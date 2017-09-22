@@ -1,19 +1,24 @@
-# 用法
+### 用法
 安装  
 `$ npm i vue-vb-toast -S`
 
 引入  
-```
+```javascript
 import VueToast from 'vue-vb-toast'
-import 'vue-vb-toast/vue-vb-toast.css'
+import 'vue-vb-toast/lib/vue-vb-toast.css'
 Vue.use(VueToast, {
   position: 'top',
   durition: 1500
 })
 ```
 
-# 使用
-```
+配置说明  
+`Vue.use(VueToast [,options])`  
+position表示显示位置，默认为`center`，可选`top,center,bottom`  
+durition表示显示时长，默认2000毫秒  
+
+### 使用
+```javascript
 <template>
   <div id="app">
     <button @click="top()">top</button>
@@ -46,7 +51,6 @@ export default {
     }
   }
 }
-
 </script>
 ```
 
