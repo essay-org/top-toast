@@ -1,19 +1,21 @@
-# 用法
+## 用法
 安装  
-`$ npm i vue-vb-toast -S`
+```node
+npm i top-toast -S
+```
 
 引入  
-```
-import VueToast from 'vue-vb-toast'
-import 'vue-vb-toast/vue-vb-toast.css'
-Vue.use(VueToast, {
+```javascript
+import TopToast from 'top-toast'
+import 'top-toast/lib/toast.css'
+Vue.use(TopToast, {
   position: 'top',
   durition: 1500
 })
 ```
 
-# 使用
-```
+## 使用
+```html
 <template>
   <div id="app">
     <button @click="top()">top</button>
@@ -46,8 +48,10 @@ export default {
     }
   }
 }
-
 </script>
 ```
+
+## 开源协议
+MIT  
 
 

@@ -1,51 +1,21 @@
 {
-  "_from": "vue-vb-toast",
-  "_id": "vue-vb-toast@0.1.1",
-  "_inBundle": false,
-  "_integrity": "sha512-vaPSi6IuuaUqzjLQve7mg5AXLD7bUjvBGIYXYIfF+f3n4KS6UquPXG43arXPJRL2OqhghKZXjAx0+r3qs9hcPg==",
-  "_location": "/vue-vb-toast",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "vue-vb-toast",
-    "name": "vue-vb-toast",
-    "escapedName": "vue-vb-toast",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/vue-vb-toast/-/vue-vb-toast-0.1.0.tgz",
-  "_shasum": "940d5c19796cd827245e859d9e8ec58112aa06e5",
-  "_spec": "vue-vb-toast",
-  "_where": "D:\\vueblog",
-  "author": {
-    "name": "wmui"
-  },
-  "bugs": {
-    "url": "https://github.com/vue-blog/vue-vb-toast/issues"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
-  "description": "A vue.js tips plugin",
-  "homepage": "https://github.com/vue-blog/vue-vb-toast#readme",
-  "keywords": [
-    "vueblog",
-    "toast"
-  ],
-  "license": "MIT",
+  "name": "top-toast",
+  "version": "0.0.1",
+  "description": "A comment plugin by gitment",
   "main": "index.js",
-  "name": "vue-vb-toast",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vue-blog/vue-vb-toast.git"
+    "url": "git+https://github.com/vuetop/top-toast.git"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [
+    "vue",
+    "comment",
+    "gitment"
+  ],
+  "author": "wmui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vuetop/top-toast/issues"
   },
-  "version": "0.1.1"
+  "homepage": "https://github.com/vuetop/top-toast#readme"
 }
