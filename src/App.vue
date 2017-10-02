@@ -1,27 +1,3 @@
-## 用法
-安装  
-```node
-npm i top-toast -S
-```
-
-引入  
-```javascript
-import TopToast from 'top-toast'
-import 'top-toast/lib/toast.css'
-Vue.use(TopToast)
-```
-
-配置项  
-```javascript
-Vue.use(TopToast[,options])
-{
-  position: 'top',// 默认值top,可选center bottom
-  durition: 1500 // 默认值1500毫秒
-}
-```
-
-## 使用
-```html
 <template>
   <div id="app">
     <button @click="top()">top</button>
@@ -55,9 +31,3 @@ export default {
   }
 }
 </script>
-```
-
-## 开源协议
-MIT  
-
-
