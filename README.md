@@ -7,7 +7,6 @@ npm i top-toast -S
 引入  
 ```javascript
 import TopToast from 'top-toast'
-import 'top-toast/lib/toast.css'
 Vue.use(TopToast)
 ```
 

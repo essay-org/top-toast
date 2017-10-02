@@ -1,6 +1,6 @@
 {
   "name": "top-toast",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A hint plugin",
   "main": "dist/build.js",
   "directories": {
